@@ -4,6 +4,9 @@ import os
 from datetime import datetime
 import logging
 
+# adding for git testing 
+
+
 input_path = ""
 output_path = ""
 delimiter = ""
@@ -24,6 +27,9 @@ if output_path == "":
     output_path = "D:\\Raw Data\\FinancialModelling\\Output_test"
 if delimiter == "":
     delimiter = ","
+
+# adding for git testing 
+
 
 import csv
 def findDelimiter():
@@ -79,3 +85,13 @@ for root, dirs, filenames in os.walk(input_path):
                     pass
         except Exception as e:
             print(e)
+
+
+# adding for git testing 
+
+
+# adding for git testing 
+
+
+
+# adding for git testing 
